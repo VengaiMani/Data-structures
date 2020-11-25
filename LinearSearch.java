@@ -19,6 +19,5 @@ public static void main(String args[]){
 int a[]={3,4,6,7,8,5,9};
 int pos=linearSearch(a,7);
 System.out.println(pos);
-
 }
 }

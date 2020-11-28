@@ -1,4 +1,4 @@
-public class SinglyLinkedList{
+public class DoublyLinkedList{
 Node head;
 private class Node{
 int data;

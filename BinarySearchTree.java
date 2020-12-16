@@ -16,6 +16,26 @@ public BinarySearchTree(){
 	root=null;
 }
 
+public boolean insert(int key){
+
+	return false;
+}
+
+public boolean delete(int key){
+
+	return false;
+}
+
+public void postOrder(Node r){
+	if(r==null){
+	return;
+	}
+	else{
+	postOrder(r.left);
+	postOrder(r.right);
+	System.out.print(r.key+" ");
+	}
+}
 public static void main(String args[]){
 	System.out.println("Hello world");
 }

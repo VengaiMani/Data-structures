@@ -36,6 +36,17 @@ public void postOrder(Node r){
 	System.out.print(r.key+" ");
 	}
 }
+
+public void inOrder(Node r){
+	if(r==null){
+	return;
+	}
+	else{
+	inOrder(r.left);
+	System.out.print(r.key+" ");
+	inOrder(r.right);
+	}
+}
 public static void main(String args[]){
 	System.out.println("Hello world");
 }
